@@ -3,14 +3,22 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { CardComponent } from './card/card.component';
+import { AppRoutingModule } from './app.routing';
+import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CardComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule,
+    CommonModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

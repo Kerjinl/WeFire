@@ -1,0 +1,18 @@
+
+.card-1{
+    width: 500px;
+    height: 500px;
+    background-color: #ededed;
+    .card-2{
+        display: inline-block;
+        width: 250px;
+        height: 250px;
+        background-color: pink;
+    }
+    .card-3{
+        display:inline-block;
+        width: 250px;
+        height: 250px;
+        background-color: orange;
+    }
+}
