@@ -1,5 +1,9 @@
 <!-- <h1>hello world!</h1> -->
 
-<!-- <app-card></app-card> -->
+<input type="text" [(ngModel)]="inp" (blur)="sub()">
+
+<app-card [AddText]="middleValue" (testWord)="putText($event)"></app-card>
+
+<p>{{childText}}</p>
 
 <router-outlet></router-outlet>
