@@ -1,0 +1,24 @@
+:host {
+    table {
+        width: 78%;
+        margin: 0 auto;
+        border-collapse: collapse; // 合并边框
+        font-size: 1.25rem;
+        text-align: center;
+        tr {
+            width: 80%;
+            margin: 0 auto;
+            border-bottom: 1px solid #fff;
+            background-color: #e7e5e5;
+            color: #888;
+            &:hover {
+                cursor: pointer;
+                color: #ededed;
+                background-color: #888;
+                font-size: 1.5rem;
+            }
+        }
+        
+    }
+
+}
